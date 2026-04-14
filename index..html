@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.8.4.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-size: 10pt; font-family: "Liberation Mono", monospace; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Care Pharma - Your Trusted Pharmacy in Jharkhand&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Care Pharma - Quality medicines at affordable prices. Order medicines online and get them delivered to your doorstep in Jharkhand.&quot;&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8faf8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header / Navbar */
+    header {
+      background: linear-gradient(135deg, #15803d, #16a34a);
+      color: white;
+      padding: 0 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 65px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .logo h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .logo span {
+      font-size: 0.75rem;
+      opacity: 0.85;
+      display: block;
+      margin-top: -4px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover { opacity: 1; }
+
+    .cart-btn {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+
+    .cart-btn:hover { background: rgba(255,255,255,0.3); }
+
+    .cart-badge {
+      background: #dc2626;
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #15803d 0%, #22c55e 50%, #16a34a 100%);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+    }
+
+    .hero-content {
+      max-width: 700px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      margin-bottom: 30px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-search {
+      display: flex;
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 50px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    .hero-search input {
+      flex: 1;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1rem;
+      outline: none;
+      color: #333;
+    }
+
+    .hero-search button {
+      background: #15803d;
+      border: none;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .hero-search button:hover { background: #166534; }
+
+    /* Stats Bar */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-item .number {
+      font-size: 1.8rem;
+      font-weight: 800;
+    }
+
+    .stat-item .label {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    /* Features Section */
+    .features {
+      max-width: 1200px;
+      margin: -30px auto 0;
+      padding: 0 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+
+    .feature-icon {
+      width: 50px;
+      height: 50px;
+      background: #dcfce7;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin: 0 auto 12px;
+    }
+
+    .feature-card h3 {
+      font-size: 1rem;
+      color: #15803d;
+      margin-bottom: 5px;
+    }
+
+    .feature-card p {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      margin: 50px 0 30px;
+      padding: 0 20px;
+    }
+
+    .section-title h2 {
+      font-size: 1.8rem;
+      color: #15803d;
+      margin-bottom: 8px;
+    }
+
+    .section-title p {
+      color: #666;
+      font-size: 1rem;
+    }
+
+    /* Categories */
+    .categories {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .category-tabs {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+    }
+
+    .cat-tab {
+      padding: 8px 20px;
+      border-radius: 25px;
+      border: 2px solid #e5e7eb;
+      background: white;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #555;
+      transition: all 0.2s;
+    }
+
+    .cat-tab:hover, .cat-tab.active {
+      border-color: #16a34a;
+      background: #16a34a;
+      color: white;
+    }
+
+    /* Product Grid */
+    .product-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .product-img {
+      height: 160px;
+      background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      position: relative;
+    }
+
+    .product-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #dc2626;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .product-badge.new {
+      background: #2563eb;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-category {
+      font-size: 0.75rem;
+      color: #16a34a;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .product-info h3 {
+      font-size: 1rem;
+      margin: 5px 0;
+      color: #1a1a1a;
+    }
+
+    .product-desc {
+      font-size: 0.82rem;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    .product-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .product-price {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #15803d;
+    }
+
+    .product-price .original {
+      font-size: 0.8rem;
+      color: #aaa;
+      text-decoration: line-through;
+      margin-left: 5px;
+      font-weight: 400;
+    }
+
+    .add-btn {
+      background: #16a34a;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .add-btn:hover { background: #15803d; }
+
+    .add-btn.added {
+      background: #166534;
+    }
+
+    /* About Section */
+    .about-section {
+      background: white;
+      padding: 60px 20px;
+      margin-top: 20px;
+    }
+
+    .about-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-visual {
+      background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+      border-radius: 16px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+    }
+
+    .about-text h2 {
+      font-size: 1.8rem;
+      color: #15803d;
+      margin-bottom: 15px;
+    }
+
+    .about-text p {
+      color: #555;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    .about-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    .about-list li {
+      padding: 6px 0;
+      color: #444;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .about-list li::before {
+      content: '✓';
+      background: #dcfce7;
+      color: #15803d;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* Contact / CTA Section */
+    .contact-section {
+      background: linear-gradient(135deg, #15803d, #22c55e);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .contact-section p {
+      opacity: 0.9;
+      margin-bottom: 25px;
+      font-size: 1rem;
+    }
+
+    .contact-cards {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .contact-card {
+      background: rgba(255,255,255,0.15);
+      padding: 20px;
+      border-radius: 12px;
+      backdrop-filter: blur(5px);
+    }
+
+    .contact-card .icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .contact-card h3 {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .contact-card p {
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-bottom: 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #1a1a1a;
+      color: #ccc;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    .footer-col h3 {
+      color: white;
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .footer-col p, .footer-col a {
+      font-size: 0.85rem;
+      color: #999;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover { color: #22c55e; }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 25px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    .whatsapp-btn {
+      background: #25D366;
+      color: white;
+      border: none;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      font-size: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(37,211,102,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .whatsapp-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(37,211,102,0.5);
+    }
+
+    /* Cart Drawer */
+    .cart-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 2000;
+    }
+
+    .cart-overlay.open { display: block; }
+
+    .cart-drawer {
+      position: fixed;
+      top: 0;
+      right: -400px;
+      width: 380px;
+      max-width: 90vw;
+      height: 100%;
+      background: white;
+      z-index: 2001;
+      transition: right 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+    }
+
+    .cart-drawer.open { right: 0; }
+
+    .cart-header {
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cart-header h2 {
+      font-size: 1.2rem;
+      color: #1a1a1a;
+    }
+
+    .cart-close {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #666;
+      padding: 5px;
+    }
+
+    .cart-items {
+      flex: 1;
+      overflow-y: auto;
+      padding: 15px 20px;
+    }
+
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .cart-item-info h4 {
+      font-size: 0.9rem;
+      color: #1a1a1a;
+    }
+
+    .cart-item-info p {
+      font-size: 0.8rem;
+      color: #16a34a;
+      font-weight: 600;
+    }
+
+    .cart-item-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .qty-btn {
+      width: 28px;
+      height: 28px;
+      border: 1px solid #ddd;
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+    }
+
+    .qty-btn:hover { background: #f5f5f5; }
+
+    .cart-item-qty {
+      font-weight: 600;
+      min-width: 20px;
+      text-align: center;
+    }
+
+    .cart-empty {
+      text-align: center;
+      padding: 40px 20px;
+      color: #999;
+    }
+
+    .cart-empty .empty-icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .cart-footer {
+      padding: 20px;
+      border-top: 1px solid #eee;
+    }
+
+    .cart-total {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #1a1a1a;
+    }
+
+    .checkout-btn {
+      width: 100%;
+      padding: 14px;
+      background: #25D366;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+
+    .checkout-btn:hover { background: #1fb855; }
+
+    /* Notification Toast */
+    .toast {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background: #1a1a1a;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      z-index: 3000;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.3s;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .mobile-menu-btn { display: block; }
+
+      .hero h2 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
+      .hero { padding: 50px 20px; }
+
+      .stats-bar { gap: 20px; }
+      .stat-item .number { font-size: 1.4rem; }
+
+      .about-container { grid-template-columns: 1fr; }
+      .about-visual { height: 200px; font-size: 60px; }
+
+      .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+      .product-img { height: 120px; font-size: 36px; }
+      .product-info { padding: 10px; }
+      .product-info h3 { font-size: 0.9rem; }
+      .product-price { font-size: 1.05rem; }
+      .add-btn { padding: 6px 12px; font-size: 0.8rem; }
+
+      .section-title h2 { font-size: 1.4rem; }
+    }
+
+    @media (max-width: 480px) {
+      .hero h2 { font-size: 1.5rem; }
+      .hero-search { flex-direction: column; border-radius: 12px; }
+      .hero-search input { border-bottom: 1px solid #eee; border-radius: 0; }
+      .hero-search button { border-radius: 0; padding: 12px; }
+
+      .features-grid { grid-template-columns: 1fr 1fr; }
+      .feature-card { padding: 15px; }
+
+      .contact-cards { grid-template-columns: 1fr; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Header --&gt;
+&lt;header&gt;
+  &lt;div class=&quot;nav-container&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;
+      &lt;div class=&quot;logo-icon&quot;&gt;💊&lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;Care Pharma&lt;/h1&gt;
+        &lt;span&gt;Your Trusted Pharmacy&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;nav&gt;
+      &lt;div class=&quot;nav-links&quot;&gt;
+        &lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+        &lt;a href=&quot;#products&quot;&gt;Products&lt;/a&gt;
+        &lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;
+        &lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;cart-btn&quot; onclick=&quot;toggleCart()&quot;&gt;
+        🛒 Cart &lt;span class=&quot;cart-badge&quot; id=&quot;cartBadge&quot;&gt;0&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;button class=&quot;mobile-menu-btn&quot; onclick=&quot;toggleMobileMenu()&quot;&gt;☰&lt;/button&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+
+&lt;!-- Hero Section --&gt;
+&lt;section class=&quot;hero&quot; id=&quot;home&quot;&gt;
+  &lt;div class=&quot;hero-content&quot;&gt;
+    &lt;h2&gt;Quality Medicines at Affordable Prices&lt;/h2&gt;
+    &lt;p&gt;Get genuine medicines delivered to your doorstep. Trusted by thousands of families across Jharkhand.&lt;/p&gt;
+    &lt;div class=&quot;hero-search&quot;&gt;
+      &lt;input type=&quot;text&quot; id=&quot;searchInput&quot; placeholder=&quot;Search for medicines...&quot; onkeyup=&quot;searchMedicine()&quot;&gt;
+      &lt;button onclick=&quot;document.getElementById('products').scrollIntoView({behavior:'smooth'})&quot;&gt;Search&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;stats-bar&quot;&gt;
+      &lt;div class=&quot;stat-item&quot;&gt;
+        &lt;div class=&quot;number&quot;&gt;5000+&lt;/div&gt;
+        &lt;div class=&quot;label&quot;&gt;Medicines&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;stat-item&quot;&gt;
+        &lt;div class=&quot;number&quot;&gt;10K+&lt;/div&gt;
+        &lt;div class=&quot;label&quot;&gt;Happy Customers&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;stat-item&quot;&gt;
+        &lt;div class=&quot;number&quot;&gt;100%&lt;/div&gt;
+        &lt;div class=&quot;label&quot;&gt;Genuine Products&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- Features --&gt;
+&lt;div class=&quot;features&quot;&gt;
+  &lt;div class=&quot;features-grid&quot;&gt;
+    &lt;div class=&quot;feature-card&quot;&gt;
+      &lt;div class=&quot;feature-icon&quot;&gt;🚚&lt;/div&gt;
+      &lt;h3&gt;Fast Delivery&lt;/h3&gt;
+      &lt;p&gt;Get medicines delivered within hours across Jharkhand&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;feature-card&quot;&gt;
+      &lt;div class=&quot;feature-icon&quot;&gt;✅&lt;/div&gt;
+      &lt;h3&gt;Genuine Medicines&lt;/h3&gt;
+      &lt;p&gt;100% authentic medicines sourced from licensed distributors&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;feature-card&quot;&gt;
+      &lt;div class=&quot;feature-icon&quot;&gt;💰&lt;/div&gt;
+      &lt;h3&gt;Best Prices&lt;/h3&gt;
+      &lt;p&gt;Affordable prices with great discounts on all orders&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;feature-card&quot;&gt;
+      &lt;div class=&quot;feature-icon&quot;&gt;📞&lt;/div&gt;
+      &lt;h3&gt;24/7 Support&lt;/h3&gt;
+      &lt;p&gt;Round-the-clock customer support via WhatsApp&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Products Section --&gt;
+&lt;div class=&quot;section-title&quot; id=&quot;products&quot;&gt;
+  &lt;h2&gt;Our Products&lt;/h2&gt;
+  &lt;p&gt;Browse our wide range of quality medicines&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;categories&quot;&gt;
+  &lt;div class=&quot;category-tabs&quot;&gt;
+    &lt;button class=&quot;cat-tab active&quot; onclick=&quot;filterCategory('all', this)&quot;&gt;All&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('pain-relief', this)&quot;&gt;Pain Relief&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('antibiotics', this)&quot;&gt;Antibiotics&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('vitamins', this)&quot;&gt;Vitamins&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('diabetes', this)&quot;&gt;Diabetes&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('stomach', this)&quot;&gt;Stomach Care&lt;/button&gt;
+    &lt;button class=&quot;cat-tab&quot; onclick=&quot;filterCategory('heart', this)&quot;&gt;Heart Health&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;product-grid&quot; id=&quot;productGrid&quot;&gt;
+  &lt;!-- Products will be inserted by JS --&gt;
+&lt;/div&gt;
+
+&lt;!-- About Section --&gt;
+&lt;section class=&quot;about-section&quot; id=&quot;about&quot;&gt;
+  &lt;div class=&quot;about-container&quot;&gt;
+    &lt;div class=&quot;about-visual&quot;&gt;🏥&lt;/div&gt;
+    &lt;div class=&quot;about-text&quot;&gt;
+      &lt;h2&gt;About Care Pharma&lt;/h2&gt;
+      &lt;p&gt;Care Pharma is a trusted pharmaceutical store serving the people of Jharkhand with quality medicines at affordable prices. We are committed to making healthcare accessible to everyone.&lt;/p&gt;
+      &lt;p&gt;With a wide range of medicines and healthcare products, we ensure that you get the right medicine at the right price, delivered right to your doorstep.&lt;/p&gt;
+      &lt;ul class=&quot;about-list&quot;&gt;
+        &lt;li&gt;Licensed and verified pharmacy&lt;/li&gt;
+        &lt;li&gt;Genuine medicines from top brands&lt;/li&gt;
+        &lt;li&gt;Affordable prices with regular discounts&lt;/li&gt;
+        &lt;li&gt;Fast and reliable delivery&lt;/li&gt;
+        &lt;li&gt;Expert pharmacist consultation&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- Contact / CTA Section --&gt;
+&lt;section class=&quot;contact-section&quot; id=&quot;contact&quot;&gt;
+  &lt;h2&gt;Get In Touch&lt;/h2&gt;
+  &lt;p&gt;We're here to help you with all your medicine needs&lt;/p&gt;
+  &lt;div class=&quot;contact-cards&quot;&gt;
+    &lt;div class=&quot;contact-card&quot;&gt;
+      &lt;div class=&quot;icon&quot;&gt;📍&lt;/div&gt;
+      &lt;h3&gt;Visit Us&lt;/h3&gt;
+      &lt;p&gt;Jharkhand, India&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;contact-card&quot;&gt;
+      &lt;div class=&quot;icon&quot;&gt;📞&lt;/div&gt;
+      &lt;h3&gt;Call Us&lt;/h3&gt;
+      &lt;p&gt;+91 6299321386&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;contact-card&quot;&gt;
+      &lt;div class=&quot;icon&quot;&gt;💬&lt;/div&gt;
+      &lt;h3&gt;WhatsApp&lt;/h3&gt;
+      &lt;p&gt;Order via WhatsApp anytime&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- Footer --&gt;
+&lt;footer&gt;
+  &lt;div class=&quot;footer-container&quot;&gt;
+    &lt;div class=&quot;footer-col&quot;&gt;
+      &lt;h3&gt;Care Pharma&lt;/h3&gt;
+      &lt;p&gt;Your trusted pharmacy in Jharkhand. Quality medicines at affordable prices, delivered to your doorstep.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-col&quot;&gt;
+      &lt;h3&gt;Quick Links&lt;/h3&gt;
+      &lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#products&quot;&gt;Products&lt;/a&gt;
+      &lt;a href=&quot;#about&quot;&gt;About Us&lt;/a&gt;
+      &lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-col&quot;&gt;
+      &lt;h3&gt;Categories&lt;/h3&gt;
+      &lt;a href=&quot;#&quot; onclick=&quot;filterCategory('pain-relief');return false;&quot;&gt;Pain Relief&lt;/a&gt;
+      &lt;a href=&quot;#&quot; onclick=&quot;filterCategory('antibiotics');return false;&quot;&gt;Antibiotics&lt;/a&gt;
+      &lt;a href=&quot;#&quot; onclick=&quot;filterCategory('vitamins');return false;&quot;&gt;Vitamins&lt;/a&gt;
+      &lt;a href=&quot;#&quot; onclick=&quot;filterCategory('diabetes');return false;&quot;&gt;Diabetes&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-col&quot;&gt;
+      &lt;h3&gt;Contact Info&lt;/h3&gt;
+      &lt;p&gt;📍 Jharkhand, India&lt;/p&gt;
+      &lt;p&gt;📞 +91 6299321386&lt;/p&gt;
+      &lt;p&gt;💬 WhatsApp: Available&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &amp;copy; 2026 Care Pharma. All rights reserved.
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;!-- WhatsApp Floating Button --&gt;
+&lt;div class=&quot;whatsapp-float&quot;&gt;
+  &lt;button class=&quot;whatsapp-btn&quot; onclick=&quot;openWhatsApp()&quot; title=&quot;Chat on WhatsApp&quot;&gt;💬&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Cart Drawer --&gt;
+&lt;div class=&quot;cart-overlay&quot; id=&quot;cartOverlay&quot; onclick=&quot;toggleCart()&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;cart-drawer&quot; id=&quot;cartDrawer&quot;&gt;
+  &lt;div class=&quot;cart-header&quot;&gt;
+    &lt;h2&gt;🛒 Your Cart&lt;/h2&gt;
+    &lt;button class=&quot;cart-close&quot; onclick=&quot;toggleCart()&quot;&gt;&amp;times;&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cart-items&quot; id=&quot;cartItems&quot;&gt;
+    &lt;div class=&quot;cart-empty&quot; id=&quot;cartEmpty&quot;&gt;
+      &lt;div class=&quot;empty-icon&quot;&gt;🛒&lt;/div&gt;
+      &lt;p&gt;Your cart is empty&lt;/p&gt;
+      &lt;p style=&quot;font-size:0.8rem;margin-top:5px;&quot;&gt;Add medicines to get started&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cart-footer&quot; id=&quot;cartFooter&quot; style=&quot;display:none;&quot;&gt;
+    &lt;div class=&quot;cart-total&quot;&gt;
+      &lt;span&gt;Total&lt;/span&gt;
+      &lt;span id=&quot;cartTotal&quot;&gt;₹0&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;button class=&quot;checkout-btn&quot; onclick=&quot;checkout()&quot;&gt;💬 Order on WhatsApp&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Toast Notification --&gt;
+&lt;div class=&quot;toast&quot; id=&quot;toast&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+// Product data
+const products = [
+  { id: 1, name: &quot;Paracetamol 500mg&quot;, category: &quot;pain-relief&quot;, price: 20, originalPrice: 30, desc: &quot;Fever &amp; pain relief tablets&quot;, emoji: &quot;💊&quot;, badge: &quot;&quot; },
+  { id: 2, name: &quot;Ibuprofen 400mg&quot;, category: &quot;pain-relief&quot;, price: 35, originalPrice: 50, desc: &quot;Anti-inflammatory pain relief&quot;, emoji: &quot;💊&quot;, badge: &quot;&quot; },
+  { id: 3, name: &quot;Azithromycin 500mg&quot;, category: &quot;antibiotics&quot;, price: 85, originalPrice: 120, desc: &quot;Antibiotic for infections&quot;, emoji: &quot;💉&quot;, badge: &quot;&quot; },
+  { id: 4, name: &quot;Amoxicillin 250mg&quot;, category: &quot;antibiotics&quot;, price: 55, originalPrice: 75, desc: &quot;Broad-spectrum antibiotic&quot;, emoji: &quot;💉&quot;, badge: &quot;&quot; },
+  { id: 5, name: &quot;Vitamin D3 1000IU&quot;, category: &quot;vitamins&quot;, price: 60, originalPrice: 90, desc: &quot;Bone health supplement&quot;, emoji: &quot;🌟&quot;, badge: &quot;new&quot; },
+  { id: 6, name: &quot;Vitamin C 500mg&quot;, category: &quot;vitamins&quot;, price: 45, originalPrice: 65, desc: &quot;Immunity booster tablets&quot;, emoji: &quot;🍊&quot;, badge: &quot;&quot; },
+  { id: 7, name: &quot;Metformin 500mg&quot;, category: &quot;diabetes&quot;, price: 45, originalPrice: 60, desc: &quot;Blood sugar management&quot;, emoji: &quot;🩺&quot;, badge: &quot;&quot; },
+  { id: 8, name: &quot;Glimepiride 2mg&quot;, category: &quot;diabetes&quot;, price: 70, originalPrice: 95, desc: &quot;Type 2 diabetes medicine&quot;, emoji: &quot;🩺&quot;, badge: &quot;new&quot; },
+  { id: 9, name: &quot;Pantoprazole 40mg&quot;, category: &quot;stomach&quot;, price: 55, originalPrice: 80, desc: &quot;Acidity &amp; ulcer relief&quot;, emoji: &quot;💚&quot;, badge: &quot;&quot; },
+  { id: 10, name: &quot;Domperidone 10mg&quot;, category: &quot;stomach&quot;, price: 30, originalPrice: 45, desc: &quot;Anti-nausea tablets&quot;, emoji: &quot;💚&quot;, badge: &quot;&quot; },
+  { id: 11, name: &quot;Amlodipine 5mg&quot;, category: &quot;heart&quot;, price: 40, originalPrice: 55, desc: &quot;Blood pressure medicine&quot;, emoji: &quot;❤️&quot;, badge: &quot;&quot; },
+  { id: 12, name: &quot;Aspirin 75mg&quot;, category: &quot;heart&quot;, price: 25, originalPrice: 35, desc: &quot;Heart health &amp; blood thinner&quot;, emoji: &quot;❤️&quot;, badge: &quot;&quot; },
+  { id: 13, name: &quot;Cetirizine 10mg&quot;, category: &quot;pain-relief&quot;, price: 15, originalPrice: 25, desc: &quot;Allergy relief tablets&quot;, emoji: &quot;🌿&quot;, badge: &quot;&quot; },
+  { id: 14, name: &quot;Multivitamin Tabs&quot;, category: &quot;vitamins&quot;, price: 120, originalPrice: 180, desc: &quot;Daily health supplement&quot;, emoji: &quot;✨&quot;, badge: &quot;new&quot; },
+  { id: 15, name: &quot;ORS Sachets (10 Pack)&quot;, category: &quot;stomach&quot;, price: 40, originalPrice: 60, desc: &quot;Rehydration solution&quot;, emoji: &quot;💧&quot;, badge: &quot;&quot; },
+  { id: 16, name: &quot;Atorvastatin 10mg&quot;, category: &quot;heart&quot;, price: 65, originalPrice: 90, desc: &quot;Cholesterol management&quot;, emoji: &quot;❤️&quot;, badge: &quot;&quot; },
+];
+
+// Cart state
+let cart = {};
+
+// Render products
+function renderProducts(filteredProducts) {
+  const grid = document.getElementById('productGrid');
+  grid.innerHTML = filteredProducts.map(p =&gt; `
+    &lt;div class=&quot;product-card&quot; data-category=&quot;${p.category}&quot; data-name=&quot;${p.name.toLowerCase()}&quot;&gt;
+      &lt;div class=&quot;product-img&quot;&gt;
+        ${p.emoji}
+        ${p.badge ? `&lt;span class=&quot;product-badge ${p.badge}&quot;&gt;${p.badge === 'new' ? 'NEW' : p.badge}&lt;/span&gt;` : ''}
+      &lt;/div&gt;
+      &lt;div class=&quot;product-info&quot;&gt;
+        &lt;div class=&quot;product-category&quot;&gt;${p.category.replace('-', ' ')}&lt;/div&gt;
+        &lt;h3&gt;${p.name}&lt;/h3&gt;
+        &lt;div class=&quot;product-desc&quot;&gt;${p.desc}&lt;/div&gt;
+        &lt;div class=&quot;product-footer&quot;&gt;
+          &lt;div class=&quot;product-price&quot;&gt;₹${p.price}&lt;span class=&quot;original&quot;&gt;₹${p.originalPrice}&lt;/span&gt;&lt;/div&gt;
+          &lt;button class=&quot;add-btn&quot; id=&quot;btn-${p.id}&quot; onclick=&quot;addToCart(${p.id})&quot;&gt;Add&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  `).join('');
+}
+
+renderProducts(products);
+
+// Filter by category
+function filterCategory(category, btn) {
+  document.querySelectorAll('.cat-tab').forEach(t =&gt; t.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  if (category === 'all') {
+    renderProducts(products);
+  } else {
+    renderProducts(products.filter(p =&gt; p.category === category));
+  }
+}
+
+// Search
+function searchMedicine() {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  const filtered = products.filter(p =&gt;
+    p.name.toLowerCase().includes(query) ||
+    p.category.includes(query) ||
+    p.desc.toLowerCase().includes(query)
+  );
+  renderProducts(filtered);
+}
+
+// Cart functions
+function addToCart(id) {
+  const product = products.find(p =&gt; p.id === id);
+  if (cart[id]) {
+    cart[id].qty++;
+  } else {
+    cart[id] = { ...product, qty: 1 };
+  }
+  updateCartUI();
+  showToast(`${product.name} added to cart`);
+
+  const btn = document.getElementById(`btn-${id}`);
+  if (btn) {
+    btn.textContent = '✓ Added';
+    btn.classList.add('added');
+    setTimeout(() =&gt; {
+      btn.textContent = 'Add';
+      btn.classList.remove('added');
+    }, 1000);
+  }
+}
+
+function removeFromCart(id) {
+  if (cart[id]) {
+    cart[id].qty--;
+    if (cart[id].qty &lt;= 0) delete cart[id];
+  }
+  updateCartUI();
+}
+
+function updateCartUI() {
+  const items = Object.values(cart);
+  const totalItems = items.reduce((sum, i) =&gt; sum + i.qty, 0);
+  const totalPrice = items.reduce((sum, i) =&gt; sum + (i.price * i.qty), 0);
+
+  document.getElementById('cartBadge').textContent = totalItems;
+
+  const cartItemsEl = document.getElementById('cartItems');
+  const cartEmpty = document.getElementById('cartEmpty');
+  const cartFooter = document.getElementById('cartFooter');
+
+  if (items.length === 0) {
+    cartEmpty.style.display = 'block';
+    cartFooter.style.display = 'none';
+    cartItemsEl.innerHTML = cartEmpty.outerHTML;
+    return;
+  }
+
+  cartFooter.style.display = 'block';
+  document.getElementById('cartTotal').textContent = `₹${totalPrice}`;
+
+  cartItemsEl.innerHTML = items.map(item =&gt; `
+    &lt;div class=&quot;cart-item&quot;&gt;
+      &lt;div class=&quot;cart-item-info&quot;&gt;
+        &lt;h4&gt;${item.name}&lt;/h4&gt;
+        &lt;p&gt;₹${item.price} each&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;cart-item-actions&quot;&gt;
+        &lt;button class=&quot;qty-btn&quot; onclick=&quot;removeFromCart(${item.id})&quot;&gt;−&lt;/button&gt;
+        &lt;span class=&quot;cart-item-qty&quot;&gt;${item.qty}&lt;/span&gt;
+        &lt;button class=&quot;qty-btn&quot; onclick=&quot;addToCart(${item.id})&quot;&gt;+&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  `).join('');
+}
+
+function toggleCart() {
+  document.getElementById('cartOverlay').classList.toggle('open');
+  document.getElementById('cartDrawer').classList.toggle('open');
+}
+
+// Checkout via WhatsApp
+function checkout() {
+  const items = Object.values(cart);
+  if (items.length === 0) {
+    showToast('Cart is empty!');
+    return;
+  }
+
+  const total = items.reduce((sum, i) =&gt; sum + (i.price * i.qty), 0);
+  let message = &quot;🛒 *New Order from Care Pharma*\n\n&quot;;
+  items.forEach(item =&gt; {
+    message += `• ${item.name} x${item.qty} - ₹${item.price * item.qty}\n`;
+  });
+  message += `\n*Total: ₹${total}*\n\nPlease confirm my order. Thank you!`;
+
+  window.open(&quot;https://wa.me/916299321386?text=&quot; + encodeURIComponent(message));
+}
+
+function openWhatsApp() {
+  window.open(&quot;https://wa.me/916299321386?text=&quot; + encodeURIComponent(&quot;Hi! I'd like to order medicines from Care Pharma.&quot;));
+}
+
+// Toast notification
+function showToast(message) {
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.classList.add('show');
+  setTimeout(() =&gt; toast.classList.remove('show'), 2000);
+}
+
+// Mobile menu
+function toggleMobileMenu() {
+  const links = document.querySelector('.nav-links');
+  if (links.style.display === 'flex') {
+    links.style.display = 'none';
+  } else {
+    links.style.display = 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '65px';
+    links.style.right = '20px';
+    links.style.background = '#15803d';
+    links.style.padding = '15px 20px';
+    links.style.borderRadius = '10px';
+    links.style.gap = '12px';
+    links.style.boxShadow = '0 4px 15px rgba(0,0,0,0.2)';
+  }
+}
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^=&quot;#&quot;]').forEach(anchor =&gt; {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
